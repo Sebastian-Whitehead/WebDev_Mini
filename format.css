@@ -1,3 +1,11 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(20, 20, 20, 0.934);
+  margin: 0;
+  overflow: hidden;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,6 +58,18 @@ ul {
     transition: 0.3s;
   }
 
-  body {
+  #image-track > .image{
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+  }
 
+  #image-track{
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
   }
