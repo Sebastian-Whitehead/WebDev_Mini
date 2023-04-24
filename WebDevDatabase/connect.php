@@ -7,7 +7,7 @@
             $email = $_POST['email'];
             $ssn = $_POST['ssn'];
 
-            $sql = "INSERT INTO 'users' ('name', 'email', 'ssn') 
+            $sql = "INSERT INTO users (name, email, ssn) 
             VALUES ('$name', '$email', '$ssn')"; #insert the typed data in database
             
             $query = mysqli_query($connect, $sql);
