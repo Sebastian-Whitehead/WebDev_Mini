@@ -2,7 +2,7 @@ headfont {color: Black; font-size: 30px; font-family: verdana; font-weight:bold;
 subfont {color: gray; font-size: 20px; font-family: verdana; text-align: center; font-style: italic;}
 countdown {color:red; font-family: Verdana; font-size: 55px;}
 
-.special {
+.timerP {
   text-align: center;
   font-size: 50px;
   margin: 0;
