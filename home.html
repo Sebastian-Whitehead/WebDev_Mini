@@ -1,16 +1,35 @@
 <style>
-    body{
-        height: 100vh;
-        width: 100vw;
-        background-color: rgba(20, 20, 20, 0.934);
-        margin: 0;
-        overflow: auto;
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20, 20, 20, 0.934);
+    margin: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    width: 50%;
+    margin-top: 100px;
     }
 </style>
 
 <p class="timerP"><headfont>Totally Not a Scam Inc.</headfont></p>
 <p class="timerP"><subfont>Join us for a brighter tommorow in:</subfont></p>
-<doublebr> <!--Custom line change-->
+<br> <br>
 <p class="timerP"><countdown id="countdown"></countdown></p>  
+<br> <br> <br>
 
-
+<button class="button" id="JoinBut" style="vertical-align:middle" onClick="location.href ='JoinUs.html'"><span>Join us!</span></button>

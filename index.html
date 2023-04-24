@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html ng-app='sampleApp'>
-
+<head>
+    <meta charset = "UTF-8">
+</head>
 <d>
     <title>Scam page 101</title>
     <link rel="stylesheet" type="text/css" href="format.css" />
-    <link rel="stylesheet" type="text/css" href="about.css" />
     <link rel="stylesheet" type="text/css" href="timer.css" />
+    <link rel="stylesheet" type="text/css" href="about.css" />
     <script data-require="angular.js@1.8.x" src="https://code.angularjs.org/1.8.2/angular.js" data-semver="1.8.2"></script>
     <script data-require="angular.js@1.8.x" src="https://code.angularjs.org/1.8.2/angular-route.js" data-semver="1.8.2"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <body>
 
@@ -18,7 +21,7 @@
                     <li ng-class="{ active: isActive('/')}"><a href="#!/">Home</a></li>
                     <li ng-class="{ active: isActive('/gallery')}"><a href="#!/gallery">Gallery</a></li>
                     <li ng-class="{ active: isActive('/about')}"><a href="#!/about">About</a></li>
-                    <li style="float:right" ng-class="{ active: isActive('/')}" ><a href="#bottom">Join us</a></li>
+                    <li style="float:right"><a href="JoinUs.html">Join us</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,5 +32,6 @@
     <script src="headerController.js"></script>
     <script src="gallery.js"></script>
     <script src="timer.js"></script>
+
 </body>
 </html>
